@@ -1,0 +1,77 @@
+@import url("../styles/header.css");
+@import url("../styles/main.css");
+@import url("../styles/carrossel.css");
+@import url("../styles/faq.css");
+@import url("../styles/contato.css");
+@import url("../styles/rodape.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --background-color:#000508;
+    --branco:#FFFFFF;
+    --vermelho: #FF1010;
+    --azul: #5CDFF2;
+    --preto: #000000;
+    --verde-degrade: linear-gradient(90deg, #DBDAAE 0%, #B2C0A8 100%);
+    
+    --fonte-principal:"Outfit";
+    --fonte-sans: "Merriweather Sans";
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: var(--fonte-principal);
+    background-color: var(--background-color);
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+
