@@ -10,5 +10,9 @@ HTML5, CSS3 e JavaScript.
 ## Funcionalidades
 Layout responsivo, navegação intuitiva, menu mobile, seções de projetos, serviços e contato, além de integração com links externos.
 
-## Acesse o projeto
+# 📁 Acessar Projeto
+
+[Acessar link](https://portfolio-chayene.vercel.app/)
+
+
 
